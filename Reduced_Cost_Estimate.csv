@@ -1,0 +1,14 @@
+﻿Group hierarchy,Region,Description,Service,Upfront,Monthly,First 12 months total,Currency,Configuration summary
+My Estimate,US East (N. Virginia),Web Load Balancer and App Load Balancer,Application Load Balancer,0,79.57,954.84,USD,Number of Application Load Balancers (2)
+My Estimate,US East (N. Virginia),Web Servers and App Servers,Amazon EC2,0,3059.33,36711.96,USD,"Operating system (Linux), Quantity (48), Pricing strategy (On-Demand Instances 1 Year All Upfront), Storage amount (30 GB), Instance type (t3.large)"
+My Estimate,US East (N. Virginia),,S3 Standard,0,42.52,510.24,USD,S3 Standard storage (1 TB per month)
+My Estimate,US East (N. Virginia),,Data Transfer,0,0,0,USD,"DT Inbound: Internet (1 TB per month), DT Outbound: Amazon CloudFront (1 TB per month)"
+My Estimate,US East (N. Virginia),,Amazon Aurora MySQL-Compatible,0,2746.9,32962.8,USD,"Change records per statement (0.38), Nodes (2), Instance Type (db.r5.xlarge), Instance Family (Memory optimized), Pricing Model (OnDemand), Additional backup storage (500 GB), Storage amount (500 GB)"
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+Acknowledgement,,,,,,,,
+"* AWS Pricing Calculator provides only an estimate of your AWS fees and doesn't include any taxes that might apply. Your actual fees depend on a variety of factors, including your actual usage of AWS services.",,,,,,,,
+,,,,,,,,
+Rationale,,,,,,,,
+"In order to reduce the cost without affecting the performance, I have reduced the instance type from t3.2xlarge to t3.large but increased the number of instances from 28 (14 web, 14 app) to 48 (24 web, 24 app) to ensure no performance impact will affect the app.",,,,,,,,
